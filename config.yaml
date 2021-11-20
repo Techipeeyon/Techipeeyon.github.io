@@ -66,19 +66,16 @@ params:
       startdate: Dec 2020
       enddate: present
       featuredpoints:
-        - point: Coordinating and organising guest lectures, workshops and hands-on sessions on trending technologies related to Open Source.
-      
+        - point:  Coordinating and organising guest lectures, workshops and hands-on sessions on trending technologies related to Open Source.
         - point: Training the freshers on various competitions like Hackathons and other Open Source contests.
-    - company: "Ingenium '21"
-      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+    - company: "Ingenium"
+      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
       role: "Moderator"
       startdate: Nov 2021
       enddate: Nov 2021
       featuredpoints:
         - point: Support and guide participants during the hackathon
-      
-        - point: ENsure that hackathon runs smoothly and efficiently by providing assistance
-
+        - point: Ensure that hackathon runs smoothly and efficiently by providing assistance
 
   # Education
   disable_education: false

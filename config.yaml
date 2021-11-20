@@ -65,11 +65,20 @@ params:
       role: "Open Source Co-ordinator"
       startdate: Dec 2020
       enddate: present
-      point: A student club meant for the development of students in fields like Artificial Intelligence, Cybersecurity and Open Source.
       featuredpoints:
         - point: Coordinating and organising guest lectures, workshops and hands-on sessions on trending technologies related to Open Source.
       
         - point: Training the freshers on various competitions like Hackathons and other Open Source contests.
+    - company: "Ingenium '21"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Moderator"
+      startdate: Nov 2021
+      enddate: Nov 2021
+      featuredpoints:
+        - point: Support and guide participants during the hackathon
+      
+        - point: ENsure that hackathon runs smoothly and efficiently by providing assistance
+
 
   # Education
   disable_education: false
@@ -129,7 +138,7 @@ params:
   achievements:
     - title: AWS Graviton Winners
       description: We are developed a chrome extension takes input the cynical images and makes prediction using the pretrained model.
-      img: https://github.com/Techipeeyon/Images/raw/main/icons/aws.jpg
+      img: /images/aws.jpg
       url: https://devpost.com/software/genie-7rqjby
    
 

@@ -1,0 +1,147 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Pranavan's portfolio"
+theme: "./.."
+relativeURLs: true
+
+googleanalytics: UA-xxxxxx-x
+disqusShortname:
+Paginate: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+  customCSS: false
+
+  
+
+  # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "/blog"
+
+  # home
+  disable_home: false
+  profile_image: "https://github.com/Techipeeyon/Images/raw/main/icons/WhatsApp%20Image%202021-11-19%20at%2018.47.09.jpeg"
+  name: "Vadivelu Murali Pranavan"
+  namecolor: ffc107
+  profession: "Undergraduate student"
+  github: "https://github.com/Techipeeyon"
+  gitlab: "https://gitlab.com/Techipeeyon"
+  linkedin: "https://www.linkedin.com/in/vadivelu-murali-pranavan-1b82551b3/"
+  twitter: "https://twitter.com/MuraliPranavan"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm Pranavan, a B.Tech student in Computer Science and Engineering at Amrita Vishwa Vidyapeetham. I'm a frontend developer who enjoys creating unique and fascinating user interfaces. My main areas of interest are Network Security Systems and Emerging Cognitive Technologies, and I am constantly working to improve my skills in these areas."
+  descripe_l2_person: "You can find my resume [here](#projects)"
+  skills:
+    - name: Bootstrap
+      percentage: 70
+    - name: Android App Development
+      percentage: 80
+    - name: Web App Development
+      percentage: 75
+    - name: Communication
+      percentage: 70
+    - name: Team work
+      percentage: 90
+    - name: Leadership skills
+      percentage: 70
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Cognizance"
+      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
+      role: "Open Source Co-ordinator"
+      startdate: Dec 2020
+      enddate: present
+      point: A student club meant for the development of students in fields like Artificial Intelligence, Cybersecurity and Open Source.
+      featuredpoints:
+        - point: Coordinating and organising guest lectures, workshops and hands-on sessions on trending technologies related to Open Source.
+      
+        - point: Training the freshers on various competitions like Hackathons and other Open Source contests.
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "B.tech"
+      branch: "Computer Science and Engineering"
+      university: "Amrita Vishwa Vidyapeetham, Chennai"
+      startedyear: "2019"
+      graduation: "2023"
+    - degree: "Senior Secondary Education"
+      branch: "CBSE"
+      university: "The Velammal International School, Ponneri"
+      startedyear: "2017"
+      graduation: "2019"
+    - degree: "Higher Secondary Education"
+      branch: "Board of Secondary Education, Andhra Pradesh"
+      university: "Kings English Medium School, Chittoor"
+      startedyear: "2016"
+      graduation: "2017"
+
+  # Projects
+  disable_projects: false
+  projects:
+    - name: "Genie"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/genie.jpg
+      githublink: "https://github.com/TechieNK/Genie"
+      featuredlink: "https://devpost.com/software/genie-7rqjby"
+      description: "Deep Learning powered image credibility checker"
+    - name: "Product Score"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/photo1631207346.jpeg
+      githublink: "https://bitbucket.org/sanjay-thiyagarajan/product-score/src/master/"
+      featuredlink: "https://devpost.com/software/product-score"
+      description: "Your one-stop solution for analysing the public reviews of your apps in Atlassian Marketplace, Google Play Store and App Store"
+    - name: "Credible"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/photo1624084952.jpeg
+      githublink: "https://github.com/sanjay-thiyagarajan/credible"
+      featuredlink: "https://devpost.com/software/credible-kg2v6x"
+      description: "Credible is an integrated platform which enables the companies to analyse the standard aspects of business model like resume, product reviews, write-ups and tweets of recruits using expert.ai NL API."
+    - name: "Accidento"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/CD.png
+      githublink: "https://github.com/TechieNK/accidento"
+      featuredlink: "https://devpost.com/software/accidento"
+      description: "Spot where Accidents are spotted using Web scraping"
+    - name: "Unforgeable"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/unfor.png
+      githublink: "https://github.com/Xavier-Alfred/Unforgeable"
+      featuredlink: "https://devpost.com/software/unforgeable"
+      description: "A Deep Learning powered web app analyzing the purity of photographs"
+    - name: "SurfUp"
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/surfup.png
+      githublink: "https://github.com/TechieNK/Surfs-Up"
+      featuredlink: "https://devpost.com/software/surfup"
+      description: "A full-fledged surf time risk predictor on the run to save your travel time and your life sometimes"
+
+  # Achievements
+  disable_achievements: false
+  achievements:
+    - title: AWS Graviton Winners
+      description: We are developed a chrome extension takes input the cynical images and makes prediction using the pretrained model.
+      img: https://github.com/Techipeeyon/Images/raw/main/icons/aws.jpg
+      url: https://devpost.com/software/genie-7rqjby
+   
+
+  # Contact
+  disable_contact: false
+  contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+  email: "pranavanmuraligai@mail.com"
+
+  # Footer
+  socialiconfooter: true
+  recentposts: true
+
+  # Blog
+  showdescription: false
+  tweet: true
